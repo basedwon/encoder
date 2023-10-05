@@ -1,0 +1,59 @@
+{
+  "name": "@basd/encoder",
+  "version": "0.0.0",
+  "description": "Provides a convenient way to define models and their associated fields for encoding and decoding various data formats.",
+  "author": "Basedwon <basedwon@protonmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basedwon/encoder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/basedwon/encoder/issues"
+  },
+  "homepage": "https://github.com/basedwon/encoder#readme",
+  "main": "lib/encoder.js",
+  "browser": {
+    ".": "./lib/encoder.js"
+  },
+  "scripts": {
+    "dev:test": "nodemon -w ../.. -x npm test",
+    "dev": "nodemon -w ../.. test/encoder.test.js",
+    "docs": "jsdoc2md lib/*.js > docs/api.md",
+    "update": "npm run update:prod && npm run update:dev",
+    "update:prod": "npm i -S basd@latest @basd/codex@latest",
+    "update:dev": "npm i -D @basd/testr@latest",
+    "test": "testr test"
+  },
+  "dependencies": {
+    "@basd/codex": "^0.0.1",
+    "basd": "^1.0.9"
+  },
+  "devDependencies": {
+    "@basd/testr": "^0.1.2",
+    "jsdoc": "^4.0.2",
+    "jsdoc-to-markdown": "^8.0.0"
+  },
+  "keywords": [
+    "encoding",
+    "decoding",
+    "base58",
+    "serialization",
+    "data-structures",
+    "models",
+    "codex",
+    "foreign-field",
+    "data-transformation",
+    "binary-data",
+    "custom-encoder",
+    "field-types",
+    "data-schema",
+    "data-validation",
+    "data-manipulation",
+    "object-mapping",
+    "byte-arrays",
+    "buffer",
+    "message-pack",
+    "binary-serialization"
+  ]
+}
