@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@basd/codex": "^0.0.1",
-    "basd": "^1.0.9"
+    "basd": "^1.0.13"
   },
   "devDependencies": {
     "@basd/testr": "^0.1.2",
