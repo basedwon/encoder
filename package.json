@@ -1,6 +1,6 @@
 {
   "name": "@basd/encoder",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Provides a convenient way to define models and their associated fields for encoding and decoding various data formats.",
   "author": "Basedwon <basedwon@protonmail.com>",
   "license": "MIT",
